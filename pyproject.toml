@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flask-ip-guard"
+version = "0.1.0"
+authors = [
+  { name="LeNonante", email="aurelien.musset54@gmail.com" },
+]
+description = "Une extension Flask simple pour gérer Whitelist et Blacklist d'IPs."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Framework :: Flask",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "Flask>=2.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/LeNonante/flask-ip-guard"
